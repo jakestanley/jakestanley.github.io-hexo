@@ -11,8 +11,10 @@ Given the constants
 Create an instance of `GameObjects.Rectangle` and some descriptive text if you prefer. 
 
 ```
-    var btn_rect: Phaser.GameObjects.Rectangle = this.add.rectangle(20 + BUTTON_WIDTH/2, 20 + BUTTON_HEIGHT/2, 80, 20, 0xff0000, 1);
-    var btn_text: Phaser.GameObjects.Text = this.add.text(btn_rect.getTopLeft().x+20, btn_rect.getTopLeft().y, 'Repair', TEXT_FONT);
+    var btn_rect: Phaser.GameObjects.Rectangle = this.add
+        .rectangle(20 + BUTTON_WIDTH/2, 20 + BUTTON_HEIGHT/2, 80, 20, 0xff0000, 1);
+    var btn_text: Phaser.GameObjects.Text = this.add
+        .text(btn_rect.getTopLeft().x+20, btn_rect.getTopLeft().y, 'Repair', TEXT_FONT);
 ```
 Then create some event handlers from the output of the `setInteractive` function.
 
