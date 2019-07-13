@@ -7,6 +7,9 @@ Given the constants
 ```
     const BUTTON_WIDTH: number = 80;
     const BUTTON_HEIGHT: number = 20;
+    const TEXT_FONT = {
+        fontFamily: "Ubuntu Mono",
+    };
 ```
 Create an instance of `GameObjects.Rectangle` and some descriptive text if you prefer. 
 
