@@ -2,7 +2,7 @@
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
+#  Technologies: /technologies
 # rss: /atom.xml
 banner: images/banner.png
 
@@ -33,7 +33,7 @@ show_count: false
 google_analytics:
 gauges_analytics:
 favicon: /favicon.png
-twitter:
+twitter: madstanners
 google_plus:
 fb_admins:
 fb_app_id:
