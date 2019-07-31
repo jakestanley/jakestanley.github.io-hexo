@@ -1,7 +1,8 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  home: /
+  archives: /archives
+  oneliners: /oneliners
 #  Technologies: /technologies
 # rss: /atom.xml
 banner: images/banner.png
