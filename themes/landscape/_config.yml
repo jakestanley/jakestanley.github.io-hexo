@@ -1,15 +1,14 @@
 # Header
 menu:
   home: /
-  archives: /archives
+#  archives: /archives
   oneliners: /oneliners
-#  Technologies: /technologies
 # rss: /atom.xml
 banner: images/banner.png
 
 # Content
-excerpt_link: Read More
-fancybox: true
+excerpt_link: more
+fancybox: false
 
 # Sidebar
 sidebar: right
@@ -27,8 +26,8 @@ index_widgets:
 # - archive
 
 # widget behavior
-archive_type: 'monthly'
-show_count: false
+archive_type: 'yearly'
+show_count: true
 
 # Miscellaneous
 google_analytics:
