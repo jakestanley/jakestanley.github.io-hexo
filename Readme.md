@@ -10,7 +10,7 @@ hexo serve
 # Publishing
 
 ```
-hexo publish
+hexo deploy -g
 ```
 
 # Updating
